@@ -1,11 +1,11 @@
-About r-combinepvalue
-=====================
+About r-combinepvalue-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-combinepvalue-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=CombinePValue
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-combinepvalue-feedstock/blob/main/LICENSE.txt)
 
 Summary: We offer two statistical tests to combine p-values: selfcontained.test vs competitive.test. The goal is to test whether a vector of pvalues are jointly significant when we combine them together.
 

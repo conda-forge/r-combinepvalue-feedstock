@@ -1,6 +1,5 @@
 {% set version = '1.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-combinepvalue
@@ -13,8 +12,7 @@ source:
   sha256: 6243a2bef3ab0ef4ecd782ab969e2e6ca4d5ca5ad2daad641afa602bbe7f9656
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
